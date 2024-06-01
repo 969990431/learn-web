@@ -1,0 +1,6 @@
+<view>
+  <view class="mv">
+    <video class="mvPlayer" autoplay="{{true}}" src="{{url}}" />
+  </view>
+  <view>{{info.artistName}}</view>
+</view>

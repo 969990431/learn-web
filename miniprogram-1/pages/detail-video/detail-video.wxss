@@ -1,0 +1,8 @@
+/* pages/detail-video/detail-video.wxss */
+
+.mv {
+  width: 100%;
+}
+.mvPlayer {
+  width: 100%;
+}

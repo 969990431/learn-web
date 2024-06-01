@@ -1,0 +1,5 @@
+<view class="list">
+  <block wx:for="{{videoList}}" wx:key="id">
+    <video-item class="item" data-item="{{item}}" bind:tap="navtoDetail" itemData="{{item}}"></video-item>
+  </block>
+</view>

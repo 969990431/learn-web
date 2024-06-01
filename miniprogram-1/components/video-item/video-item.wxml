@@ -1,0 +1,12 @@
+<wxs src="/utils/format.wxs" module="fmt" />
+<view class="item">
+  <view class="cover-box">
+    <image class="cover" src="{{itemData.cover}}" mode="widthFix" />
+    <view class="bottom">
+      <image class="icon" src="/assets/images/icons/play_icon.png" mode="" />
+      <text class="play-count">{{fmt.formatCount(itemData.playCount) }}</text>
+      <text class="duration">{{fmt.formatTime(itemData.mv.videos[0].duration)}}</text>
+    </view>
+  </view>
+  <text class="title">{{itemData.name}}-{{itemData.artistName}}</text>
+</view>
