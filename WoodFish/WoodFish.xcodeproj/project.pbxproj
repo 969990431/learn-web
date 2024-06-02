@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA56230C3698EB202BF709C9 /* Pods_WoodFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3FEDEAEE11563DC2404663 /* Pods_WoodFish.framework */; };
+		EA04D08B2A145DFC0066AAFB /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA04D08A2A145DFC0066AAFB /* SetViewController.m */; };
+		EA04D09E2A1491120066AAFB /* CYBScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA04D0982A1491110066AAFB /* CYBScrollLabel.m */; };
+		EA04D09F2A1491120066AAFB /* CYBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA04D09A2A1491110066AAFB /* CYBTextView.m */; };
+		EA04D0A02A1491120066AAFB /* CYBLunBoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA04D09B2A1491120066AAFB /* CYBLunBoView.m */; };
+		EA04D0AC2A1494690066AAFB /* CustomPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA04D0AB2A1494690066AAFB /* CustomPlayer.m */; };
+		EA15124E2A15F9A4004DBE5A /* NSString+tool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA15124D2A15F9A4004DBE5A /* NSString+tool.m */; };
+		EA1512512A15FBB8004DBE5A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1512502A15FBB8004DBE5A /* WebViewController.m */; };
+		EA34BBD82A14A318008BD16A /* SelectMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA34BBD72A14A318008BD16A /* SelectMusicViewController.m */; };
+		EAA122B62A136F1D00A3A137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA122B52A136F1D00A3A137 /* AppDelegate.m */; };
+		EAA122B92A136F1D00A3A137 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA122B82A136F1D00A3A137 /* SceneDelegate.m */; };
+		EAA122BC2A136F1D00A3A137 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA122BB2A136F1D00A3A137 /* ViewController.m */; };
+		EAA122BF2A136F1D00A3A137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA122BD2A136F1D00A3A137 /* Main.storyboard */; };
+		EAA122C12A136F2000A3A137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA122C02A136F2000A3A137 /* Assets.xcassets */; };
+		EAA122C42A136F2000A3A137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA122C22A136F2000A3A137 /* LaunchScreen.storyboard */; };
+		EAA122C72A136F2000A3A137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA122C62A136F2000A3A137 /* main.m */; };
+		EAA122D22A13783A00A3A137 /* muyu-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAA122D12A13783A00A3A137 /* muyu-2.mp3 */; };
+		EAF64FDA2A14A9AC00F5BF3A /* Great Compassion Mantra6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD02A14A9AA00F5BF3A /* Great Compassion Mantra6.mp4 */; };
+		EAF64FDB2A14A9AC00F5BF3A /* Great Compassion Mantra1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD12A14A9AA00F5BF3A /* Great Compassion Mantra1.mp4 */; };
+		EAF64FDC2A14A9AC00F5BF3A /* Great Compassion Mantra4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD22A14A9AA00F5BF3A /* Great Compassion Mantra4.mp4 */; };
+		EAF64FDD2A14A9AC00F5BF3A /* Great Compassion Mantra3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD32A14A9AA00F5BF3A /* Great Compassion Mantra3.mp4 */; };
+		EAF64FDE2A14A9AC00F5BF3A /* Great Compassion Mantra7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD42A14A9AB00F5BF3A /* Great Compassion Mantra7.mp4 */; };
+		EAF64FDF2A14A9AC00F5BF3A /* Great Compassion Mantra8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD52A14A9AB00F5BF3A /* Great Compassion Mantra8.mp4 */; };
+		EAF64FE02A14A9AC00F5BF3A /* Great Compassion Mantra9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD62A14A9AB00F5BF3A /* Great Compassion Mantra9.mp4 */; };
+		EAF64FE12A14A9AC00F5BF3A /* Great Compassion Mantra10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD72A14A9AB00F5BF3A /* Great Compassion Mantra10.mp4 */; };
+		EAF64FE22A14A9AC00F5BF3A /* Great Compassion Mantra2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD82A14A9AC00F5BF3A /* Great Compassion Mantra2.mp4 */; };
+		EAF64FE32A14A9AC00F5BF3A /* Great Compassion Mantra5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAF64FD92A14A9AC00F5BF3A /* Great Compassion Mantra5.mp4 */; };
+		EAF64FE62A14CE9F00F5BF3A /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF64FE52A14CE9F00F5BF3A /* UserInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E3FEDEAEE11563DC2404663 /* Pods_WoodFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoodFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42780395FC98AEFF198D69D4 /* Pods-WoodFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoodFish.debug.xcconfig"; path = "Target Support Files/Pods-WoodFish/Pods-WoodFish.debug.xcconfig"; sourceTree = "<group>"; };
+		632602398A53BE2D0E2B18C1 /* Pods-WoodFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoodFish.release.xcconfig"; path = "Target Support Files/Pods-WoodFish/Pods-WoodFish.release.xcconfig"; sourceTree = "<group>"; };
+		EA04D0892A145DFC0066AAFB /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		EA04D08A2A145DFC0066AAFB /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		EA04D0982A1491110066AAFB /* CYBScrollLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYBScrollLabel.m; sourceTree = "<group>"; };
+		EA04D0992A1491110066AAFB /* CYBScrollLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYBScrollLabel.h; sourceTree = "<group>"; };
+		EA04D09A2A1491110066AAFB /* CYBTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYBTextView.m; sourceTree = "<group>"; };
+		EA04D09B2A1491120066AAFB /* CYBLunBoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYBLunBoView.m; sourceTree = "<group>"; };
+		EA04D09C2A1491120066AAFB /* CYBLunBoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYBLunBoView.h; sourceTree = "<group>"; };
+		EA04D09D2A1491120066AAFB /* CYBTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYBTextView.h; sourceTree = "<group>"; };
+		EA04D0AA2A1494690066AAFB /* CustomPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPlayer.h; sourceTree = "<group>"; };
+		EA04D0AB2A1494690066AAFB /* CustomPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPlayer.m; sourceTree = "<group>"; };
+		EA15124C2A15F9A4004DBE5A /* NSString+tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+tool.h"; sourceTree = "<group>"; };
+		EA15124D2A15F9A4004DBE5A /* NSString+tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+tool.m"; sourceTree = "<group>"; };
+		EA15124F2A15FBB8004DBE5A /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		EA1512502A15FBB8004DBE5A /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		EA34BBD62A14A317008BD16A /* SelectMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectMusicViewController.h; sourceTree = "<group>"; };
+		EA34BBD72A14A318008BD16A /* SelectMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectMusicViewController.m; sourceTree = "<group>"; };
+		EAA122B12A136F1D00A3A137 /* WoodFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA122B42A136F1D00A3A137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAA122B52A136F1D00A3A137 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAA122B72A136F1D00A3A137 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EAA122B82A136F1D00A3A137 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EAA122BA2A136F1D00A3A137 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAA122BB2A136F1D00A3A137 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAA122BE2A136F1D00A3A137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA122C02A136F2000A3A137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA122C32A136F2000A3A137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAA122C52A136F2000A3A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA122C62A136F2000A3A137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAA122D12A13783A00A3A137 /* muyu-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "muyu-2.mp3"; sourceTree = "<group>"; };
+		EAF64FD02A14A9AA00F5BF3A /* Great Compassion Mantra6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra6.mp4"; sourceTree = "<group>"; };
+		EAF64FD12A14A9AA00F5BF3A /* Great Compassion Mantra1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra1.mp4"; sourceTree = "<group>"; };
+		EAF64FD22A14A9AA00F5BF3A /* Great Compassion Mantra4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra4.mp4"; sourceTree = "<group>"; };
+		EAF64FD32A14A9AA00F5BF3A /* Great Compassion Mantra3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra3.mp4"; sourceTree = "<group>"; };
+		EAF64FD42A14A9AB00F5BF3A /* Great Compassion Mantra7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra7.mp4"; sourceTree = "<group>"; };
+		EAF64FD52A14A9AB00F5BF3A /* Great Compassion Mantra8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra8.mp4"; sourceTree = "<group>"; };
+		EAF64FD62A14A9AB00F5BF3A /* Great Compassion Mantra9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra9.mp4"; sourceTree = "<group>"; };
+		EAF64FD72A14A9AB00F5BF3A /* Great Compassion Mantra10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra10.mp4"; sourceTree = "<group>"; };
+		EAF64FD82A14A9AC00F5BF3A /* Great Compassion Mantra2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra2.mp4"; sourceTree = "<group>"; };
+		EAF64FD92A14A9AC00F5BF3A /* Great Compassion Mantra5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Compassion Mantra5.mp4"; sourceTree = "<group>"; };
+		EAF64FE42A14CE9F00F5BF3A /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		EAF64FE52A14CE9F00F5BF3A /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA122AE2A136F1D00A3A137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA56230C3698EB202BF709C9 /* Pods_WoodFish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D9E6117A384E0D3F8C0641A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42780395FC98AEFF198D69D4 /* Pods-WoodFish.debug.xcconfig */,
+				632602398A53BE2D0E2B18C1 /* Pods-WoodFish.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E3820D47589B50045844267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E3FEDEAEE11563DC2404663 /* Pods_WoodFish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA04D08C2A1488140066AAFB /* Great Compassion Mantra */ = {
+			isa = PBXGroup;
+			children = (
+				EAF64FD12A14A9AA00F5BF3A /* Great Compassion Mantra1.mp4 */,
+				EAF64FD82A14A9AC00F5BF3A /* Great Compassion Mantra2.mp4 */,
+				EAF64FD32A14A9AA00F5BF3A /* Great Compassion Mantra3.mp4 */,
+				EAF64FD22A14A9AA00F5BF3A /* Great Compassion Mantra4.mp4 */,
+				EAF64FD92A14A9AC00F5BF3A /* Great Compassion Mantra5.mp4 */,
+				EAF64FD02A14A9AA00F5BF3A /* Great Compassion Mantra6.mp4 */,
+				EAF64FD42A14A9AB00F5BF3A /* Great Compassion Mantra7.mp4 */,
+				EAF64FD52A14A9AB00F5BF3A /* Great Compassion Mantra8.mp4 */,
+				EAF64FD62A14A9AB00F5BF3A /* Great Compassion Mantra9.mp4 */,
+				EAF64FD72A14A9AB00F5BF3A /* Great Compassion Mantra10.mp4 */,
+			);
+			path = "Great Compassion Mantra";
+			sourceTree = "<group>";
+		};
+		EAA122A82A136F1D00A3A137 = {
+			isa = PBXGroup;
+			children = (
+				EAA122B32A136F1D00A3A137 /* WoodFish */,
+				EAA122B22A136F1D00A3A137 /* Products */,
+				7D9E6117A384E0D3F8C0641A /* Pods */,
+				7E3820D47589B50045844267 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA122B22A136F1D00A3A137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA122B12A136F1D00A3A137 /* WoodFish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA122B32A136F1D00A3A137 /* WoodFish */ = {
+			isa = PBXGroup;
+			children = (
+				EA04D08C2A1488140066AAFB /* Great Compassion Mantra */,
+				EAA122B42A136F1D00A3A137 /* AppDelegate.h */,
+				EAA122B52A136F1D00A3A137 /* AppDelegate.m */,
+				EAA122B72A136F1D00A3A137 /* SceneDelegate.h */,
+				EAA122B82A136F1D00A3A137 /* SceneDelegate.m */,
+				EA15124C2A15F9A4004DBE5A /* NSString+tool.h */,
+				EA15124D2A15F9A4004DBE5A /* NSString+tool.m */,
+				EAA122BA2A136F1D00A3A137 /* ViewController.h */,
+				EAA122BB2A136F1D00A3A137 /* ViewController.m */,
+				EA15124F2A15FBB8004DBE5A /* WebViewController.h */,
+				EA1512502A15FBB8004DBE5A /* WebViewController.m */,
+				EA04D0892A145DFC0066AAFB /* SetViewController.h */,
+				EA04D08A2A145DFC0066AAFB /* SetViewController.m */,
+				EA34BBD62A14A317008BD16A /* SelectMusicViewController.h */,
+				EA34BBD72A14A318008BD16A /* SelectMusicViewController.m */,
+				EA04D0AA2A1494690066AAFB /* CustomPlayer.h */,
+				EA04D0AB2A1494690066AAFB /* CustomPlayer.m */,
+				EAF64FE42A14CE9F00F5BF3A /* UserInfo.h */,
+				EAF64FE52A14CE9F00F5BF3A /* UserInfo.m */,
+				EA04D09C2A1491120066AAFB /* CYBLunBoView.h */,
+				EA04D09B2A1491120066AAFB /* CYBLunBoView.m */,
+				EA04D0992A1491110066AAFB /* CYBScrollLabel.h */,
+				EA04D0982A1491110066AAFB /* CYBScrollLabel.m */,
+				EA04D09D2A1491120066AAFB /* CYBTextView.h */,
+				EA04D09A2A1491110066AAFB /* CYBTextView.m */,
+				EAA122D12A13783A00A3A137 /* muyu-2.mp3 */,
+				EAA122BD2A136F1D00A3A137 /* Main.storyboard */,
+				EAA122C02A136F2000A3A137 /* Assets.xcassets */,
+				EAA122C22A136F2000A3A137 /* LaunchScreen.storyboard */,
+				EAA122C52A136F2000A3A137 /* Info.plist */,
+				EAA122C62A136F2000A3A137 /* main.m */,
+			);
+			path = WoodFish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA122B02A136F1D00A3A137 /* WoodFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA122CA2A136F2000A3A137 /* Build configuration list for PBXNativeTarget "WoodFish" */;
+			buildPhases = (
+				C83034B08DF5AC1200C70EBC /* [CP] Check Pods Manifest.lock */,
+				EAA122AD2A136F1D00A3A137 /* Sources */,
+				EAA122AE2A136F1D00A3A137 /* Frameworks */,
+				EAA122AF2A136F1D00A3A137 /* Resources */,
+				3D0A9EDB8190FCE283E5C80A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoodFish;
+			productName = WoodFish;
+			productReference = EAA122B12A136F1D00A3A137 /* WoodFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA122A92A136F1D00A3A137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EAA122B02A136F1D00A3A137 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = EAA122AC2A136F1D00A3A137 /* Build configuration list for PBXProject "WoodFish" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA122A82A136F1D00A3A137;
+			productRefGroup = EAA122B22A136F1D00A3A137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA122B02A136F1D00A3A137 /* WoodFish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA122AF2A136F1D00A3A137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF64FDE2A14A9AC00F5BF3A /* Great Compassion Mantra7.mp4 in Resources */,
+				EAF64FDF2A14A9AC00F5BF3A /* Great Compassion Mantra8.mp4 in Resources */,
+				EAF64FDD2A14A9AC00F5BF3A /* Great Compassion Mantra3.mp4 in Resources */,
+				EAF64FE22A14A9AC00F5BF3A /* Great Compassion Mantra2.mp4 in Resources */,
+				EAF64FDB2A14A9AC00F5BF3A /* Great Compassion Mantra1.mp4 in Resources */,
+				EAA122C42A136F2000A3A137 /* LaunchScreen.storyboard in Resources */,
+				EAF64FDC2A14A9AC00F5BF3A /* Great Compassion Mantra4.mp4 in Resources */,
+				EAF64FDA2A14A9AC00F5BF3A /* Great Compassion Mantra6.mp4 in Resources */,
+				EAA122C12A136F2000A3A137 /* Assets.xcassets in Resources */,
+				EAA122BF2A136F1D00A3A137 /* Main.storyboard in Resources */,
+				EAF64FE32A14A9AC00F5BF3A /* Great Compassion Mantra5.mp4 in Resources */,
+				EAF64FE02A14A9AC00F5BF3A /* Great Compassion Mantra9.mp4 in Resources */,
+				EAA122D22A13783A00A3A137 /* muyu-2.mp3 in Resources */,
+				EAF64FE12A14A9AC00F5BF3A /* Great Compassion Mantra10.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D0A9EDB8190FCE283E5C80A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoodFish/Pods-WoodFish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoodFish/Pods-WoodFish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoodFish/Pods-WoodFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C83034B08DF5AC1200C70EBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoodFish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA122AD2A136F1D00A3A137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA04D0AC2A1494690066AAFB /* CustomPlayer.m in Sources */,
+				EAA122BC2A136F1D00A3A137 /* ViewController.m in Sources */,
+				EAA122B62A136F1D00A3A137 /* AppDelegate.m in Sources */,
+				EA04D0A02A1491120066AAFB /* CYBLunBoView.m in Sources */,
+				EA04D09E2A1491120066AAFB /* CYBScrollLabel.m in Sources */,
+				EAA122C72A136F2000A3A137 /* main.m in Sources */,
+				EA1512512A15FBB8004DBE5A /* WebViewController.m in Sources */,
+				EA04D08B2A145DFC0066AAFB /* SetViewController.m in Sources */,
+				EA15124E2A15F9A4004DBE5A /* NSString+tool.m in Sources */,
+				EAA122B92A136F1D00A3A137 /* SceneDelegate.m in Sources */,
+				EAF64FE62A14CE9F00F5BF3A /* UserInfo.m in Sources */,
+				EA04D09F2A1491120066AAFB /* CYBTextView.m in Sources */,
+				EA34BBD82A14A318008BD16A /* SelectMusicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAA122BD2A136F1D00A3A137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA122BE2A136F1D00A3A137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA122C22A136F2000A3A137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA122C32A136F2000A3A137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA122C82A136F2000A3A137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAA122C92A136F2000A3A137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA122CB2A136F2000A3A137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42780395FC98AEFF198D69D4 /* Pods-WoodFish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K627Z6S2S2;
+				ENABLE_BITCODE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WoodFish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hehe.WoodFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA122CC2A136F2000A3A137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632602398A53BE2D0E2B18C1 /* Pods-WoodFish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K627Z6S2S2;
+				ENABLE_BITCODE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WoodFish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hehe.WoodFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA122AC2A136F1D00A3A137 /* Build configuration list for PBXProject "WoodFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA122C82A136F2000A3A137 /* Debug */,
+				EAA122C92A136F2000A3A137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA122CA2A136F2000A3A137 /* Build configuration list for PBXNativeTarget "WoodFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA122CB2A136F2000A3A137 /* Debug */,
+				EAA122CC2A136F2000A3A137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA122A92A136F1D00A3A137 /* Project object */;
+}

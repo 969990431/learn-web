@@ -1,0 +1,6 @@
+framework module Pods_WoodFish {
+  umbrella header "Pods-WoodFish-umbrella.h"
+
+  export *
+  module * { export * }
+}
